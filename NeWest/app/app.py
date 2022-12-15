@@ -21,7 +21,7 @@ def routeRoot() -> str:
     return "MicroService - Bag Loading Machine Derivations"
 
 
-@app.route('/ml/deviation/predict', methods=['POST'])
+@app.route('/predict', methods=['POST'])
 def derivation_predict() -> str:
     
     """
